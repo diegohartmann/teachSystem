@@ -1,18 +1,8 @@
 import L from './lobo.js';
+import slideContents from './slideContents.js';
 export default function slides(){
 
-    class slideContent{
-        constructor(_title, _content){
-            this.title = _title;
-            this.content = _content;
-        }
-    }
-    const slideContents=[
-        new slideContent('Conteudo 1', 'kkk mama minha rola'),
-        new slideContent('Conteudo 2', 'oi bb te amo'),
-        new slideContent('Conteudo 3', 'nossa to todo cagado alguém me ajuda'),
-        new slideContent('tutulo', 'nossa to todo cagado alguém me ajuda'),
-    ]
+    
 
     let currentSlideIndex = 0;
 
@@ -62,32 +52,30 @@ export default function slides(){
         _array.forEach(_item=>{
             _item.classList.remove('active');
          }) 
-        _array[_index]?.classList.add('active');
+        _array[_index].classList.add('active');
     }
 
     function changeCurrentActiveSlide(_i){
-        changeCurrentActive(bullets, _i);
-        changeCurrentActive(slides, _i);
+        currentSlideIndex = _i;
+        //clamp index
+        if(currentSlideIndex<0){
+            currentSlideIndex=0;
+        }else if (currentSlideIndex > bullets.length - 1){
+            currentSlideIndex = bullets.length - 1;
+        }
+        changeCurrentActive(bullets, currentSlideIndex);
+        changeCurrentActive(slides, currentSlideIndex);
     }
 
 
-
      //click nas setas
-     const arrowL = slidesSection.querySelector('.l');
-     const arrowR = slidesSection.querySelector('.r');
-     arrowL.addEventListener('click',()=>{
-        if(currentSlideIndex>0){
-            currentSlideIndex--;
-        }
-        changeCurrentActiveSlide(currentSlideIndex);
-     });
-     arrowR.addEventListener('click',()=>{
-        if(currentSlideIndex<bullets.length-1){
-            currentSlideIndex++;
-        }
-        changeCurrentActiveSlide(currentSlideIndex);
-     });
- 
+    slidesSection.querySelector('.l').addEventListener('click',()=>{
+        changeCurrentActiveSlide(currentSlideIndex - 1);
+    });
+    slidesSection.querySelector('.r').addEventListener('click',()=>{
+        changeCurrentActiveSlide(currentSlideIndex + 1);
+    });
+
 
 
 }
