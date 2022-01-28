@@ -69,10 +69,10 @@ export default function slides(){
 
 
      //click nas setas
-    slidesSection.querySelector('.l').addEventListener('click',()=>{
+    slidesSection.querySelector('.l > i').addEventListener('click',()=>{
         changeCurrentActiveSlide(currentSlideIndex - 1);
     });
-    slidesSection.querySelector('.r').addEventListener('click',()=>{
+    slidesSection.querySelector('.r > i').addEventListener('click',()=>{
         changeCurrentActiveSlide(currentSlideIndex + 1);
     });
 
