@@ -13,20 +13,33 @@ const slideContents=[
     create(
         'Artigo de Opinião',
         `
-        O artigo de opinião é um texto que defende um ponto de vista por meio de argumentos. Por isso, é um gênero argumentativo. Nele, deve ser utilizada linguagem conforme a norma-padrão. Dessa forma, o texto consegue atingir um público maior, já que a intenção é a de que ele alcance e seja compreendido em regiões completamente distintas, onde costuma ter variação linguística – como é o caso dos artigos publicados em jornais de alcance nacional no Brasil.
-Além disso, o artigo de opinião se trata de uma publicação de imprensa, assim, o assunto nesse tipo de texto costuma ser de relevância coletiva, abordando fatos importantes que tenham ocorrido nos dias ou semanas anteriores. Sendo assim, o gênero tem uma função social clara de promover o debate público sobre as demandas da sociedade.
-Pense em um acontecimento importante, um tema que apareceu nos últimos dias, algo que necessita do olhar da sociedade. Agora imagine que você vai falar seu ponto de vista para alguém (pode imaginar um amigo) que não está muito por dentro do assunto.
-Inicialmente, você faria uma introdução sobre o caso e daria sua opinião sobre. Pode ser que seu amigo não concorde com sua “tese”. Assim, você começa a desenvolver o assunto usando alguns argumentos, como notícias, pesquisas importantes... No final da conversa, você retoma o ponto inicial, que você introduziu, seu ponto de vista e compara com os argumentos utilizados concluindo sua defesa.
-É seguindo essa ideia, com alguns poréns, que você construirá seu artigo de opinião, não esquecendo três pontos importantes na sua escrita: o planejamento e projeto; o rascunho; e a revisão do seu texto.
+        O artigo de opinião é um texto que defende um ponto de vista por meio de argumentos. Por isso, é um gênero argumentativo. Nele, deve ser utilizada linguagem conforme a norma-padrão.
+        <br><br>
+        Dessa forma, o texto consegue atingir um público maior, já que a intenção é a de que ele alcance e seja compreendido em regiões completamente distintas, onde costuma ter variação linguística – como é o caso dos artigos publicados em jornais de alcance nacional no Brasil.
+        <br><br>
+        Além disso, o artigo de opinião se trata de uma publicação de imprensa, assim, o assunto nesse tipo de texto costuma ser de relevância coletiva, abordando fatos importantes que tenham ocorrido nos dias ou semanas anteriores.
+        <br><br>
+        Sendo assim, o gênero tem uma função social clara de promover o debate público sobre as demandas da sociedade.
+        Pense em um acontecimento importante, um tema que apareceu nos últimos dias, algo que necessita do olhar da sociedade.
+        <br><br>
+        Agora imagine que você vai falar seu ponto de vista para alguém (pode imaginar um amigo) que não está muito por dentro do assunto.
+        Inicialmente, você faria uma introdução sobre o caso e daria sua opinião sobre.
+        <br><br>
+        Pode ser que seu amigo não concorde com sua “tese”. Assim, você começa a desenvolver o assunto usando alguns argumentos, como notícias, pesquisas importantes...
+        <br><br>
+        No final da conversa, você retoma o ponto inicial, que você introduziu, seu ponto de vista e compara com os argumentos utilizados concluindo sua defesa.
+        <br><br>
+        É seguindo essa ideia, com alguns poréns, que você construirá seu artigo de opinião, não esquecendo três pontos importantes na sua escrita:
+        <br>o planejamento e projeto; o rascunho; e a revisão do seu texto.
         `
     ),
     create(
         'Introdução',
         `
 •   Neste primeiro parágrafo, você deve apresentar o tema (assunto) e se posicionar sobre. Qual seu ponto de vista a respeito do tema?
-<br>
-•   Talvez você queira começar com:
 <br><br>
+•   Talvez você queira começar com:
+<br>
 o	“É de conhecimento geral que...”<br>
 o	“Muito se tem discutido...” <br>
 o	“Pode-se afirmar que...” <br>
@@ -39,13 +52,16 @@ o	“Segundo a pesquisa...” <br><br>
         'Desenvolvimento',
         `
 •	Neste(s) parágrafo(s) você apresentará os argumentos que comprovarão seu ponto de vista apresentado na tese que inseriu no parágrafo de introdução.
+<br>
+<br>
 •	Um argumento costuma ter duas partes: a fundamentação e a análise do fundamento.<br><br>
-o	Fundamentação: informações, fatos, dados, referências, entre outros, que o autor busca para embasar sua opinião.
-o	Análise do fundamento: trecho em que o autor relaciona o fundamento utilizado com a tese defendida.
+•	Fundamentação: informações, fatos, dados, referências, entre outros, que o autor busca para embasar sua opinião.
+<br>
+<br>
+•	Análise do fundamento: trecho em que o autor relaciona o fundamento utilizado com a tese defendida.
 <br>
 <br>
 •	Conectivos que lhe ajudarão a ligar as ideias no desenvolvimento do texto:
-<br>
 <br>
 o	Adição: além disso, ademais, ainda mais, também...
 <br>
@@ -66,21 +82,22 @@ o	Oposição: exceto, posto, conquanto, por mais que...
 o	Relevância: a princípio, sobretudo, a priori, em primeiro lugar..
 <br>
 o	Semelhança: da mesma forma, igualmente, assim também...
-<br>
         `
 ),
     create(
         'Conclusão',
         `
 •	Neste parágrafo você apresentará uma síntese do desenvolvimento do texto e, em seguida, retomará a tese, agora comprovada pelos argumentos.
+<br><br>
 •	A conclusão repete, resumidamente, a linha argumentativa desenvolvida no texto e, a partir disso, a tese é retomada de forma comprovada
-•	Você pode começar este parágrafo com: <br><br>
+•	Você pode começar este parágrafo com:
+<br>
 o	Percebe-se;<br>
 o	Destarte;<br>
 o	Assim;<br>
 o	Diante disso;<br>
 o	Em síntese;<br>
-o	Portanto...<br>
+o	Portanto...
         `
     ),
 ]

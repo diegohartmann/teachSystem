@@ -1,8 +1,8 @@
 import L from './lobo.js';
 import slideContents from './slideContents.js';
-export default function slides(){
 
-    
+
+export default function slides(){
 
     let currentSlideIndex = 0;
 
@@ -18,6 +18,7 @@ export default function slides(){
             <div>
                 <h1>${_content.title}</h1>
                 <p>${_content.content}</p>
+                <br><br>
             </div>
         `
     }
@@ -42,40 +43,35 @@ export default function slides(){
 
     for (let i = 0; i < bullets.length; i++) {
         bullets[i].addEventListener('click',()=>{
-            changeCurrentActive(bullets, i);
-            changeCurrentActive(slides, i);
+            changeCurrentActiveSlide(i);
         });
     }
 
 
+    
+    function changeCurrentActiveSlide(_i){
+        currentSlideIndex = _i;
+        //circle index
+        if(currentSlideIndex<0){
+            currentSlideIndex= bullets.length - 1;
+        }else if (currentSlideIndex > bullets.length - 1){
+            currentSlideIndex = 0;
+        }
+        changeCurrentActive(bullets, currentSlideIndex);
+        changeCurrentActive(slides, currentSlideIndex);
+    }
     function changeCurrentActive(_array, _index){
         _array.forEach(_item=>{
             _item.classList.remove('active');
          }) 
         _array[_index].classList.add('active');
     }
-
-    function changeCurrentActiveSlide(_i){
-        currentSlideIndex = _i;
-        //clamp index
-        if(currentSlideIndex<0){
-            currentSlideIndex=0;
-        }else if (currentSlideIndex > bullets.length - 1){
-            currentSlideIndex = bullets.length - 1;
-        }
-        changeCurrentActive(bullets, currentSlideIndex);
-        changeCurrentActive(slides, currentSlideIndex);
-    }
-
-
-     //click nas setas
+    //click nas setas
     slidesSection.querySelector('.l > i').addEventListener('click',()=>{
         changeCurrentActiveSlide(currentSlideIndex - 1);
     });
     slidesSection.querySelector('.r > i').addEventListener('click',()=>{
         changeCurrentActiveSlide(currentSlideIndex + 1);
     });
-
-
 
 }
