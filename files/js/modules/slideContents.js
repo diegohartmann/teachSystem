@@ -103,7 +103,42 @@ export const slideContents=[
     slide(
         'Exemplo',
         `
-        
+        “Tá com dó do refugiado? Leva pra casa!”
+        Leonardo Sakamoto 
+        8/9/2015
+        <br>
+        <br>
+        “Tá com dó? Leva para casa!’’ é uma daquelas frases icônicas, através das quais consegue-se avaliar se o interlocutor merece respeito ou um abraço forte e solidário.
+        <br>
+        <br>
+        É utilizada por pessoas com síndrome de pombo-enxadrista (faz sujeira no tabuleiro, joga ignorando regras mínimas de sociabilidade e sai voando, cantando vitória),
+        normalmente diante do clamor para políticas voltadas àquela gente pobre, parda, perdida ou violada que habita as frestas das grandes cidades.
+        <br>
+        <br>
+        (...)
+        <br>
+        <br>
+        Tanto na Europa quanto por aqui, ações individuais ajudam a mitigar o impacto inicial dos refugiados, garantindo apoio a quem perdeu tudo.
+        E é ótimo que seja assim.
+        <br>
+        <br>
+        Mas eles devem ser alvo, principalmente, de uma política pública, com intervenção direta do Estado, única instituição com tamanho e legitimidade para garantir uma ação nacional,
+        transnacional e de escala. Porque isso também inclui a garantia da autonomia econômica e social às famílias.
+        <br>
+        <br>
+        Quem acha que o Estado é um simples entrave e não a forma que construímos para impedir que nos devoremos, tem dificuldade de entender que o acolhimento de refugiados e migrantes não é caridade individual,mas sim a efetivação de compromissos assumidos internacionalmente por um povo.
+        <br>
+        <br>
+        Ao mesmo tempo, o Estado é responsável por aprovar o mais rápido possível a nova lei brasileira de migração, que facilita a acolhida de estrangeiros de locais com instabilidade, guerras, violações a direitos humanos.
+        <br>
+        <br>
+        O projeto, já aprovado no Senado e que está em análise na Câmara dos Deputados (PL 2516/15), repudia a xenofobia, tendo uma caráter mais humanitário que o Estatuto do Estrangeiro atual, um Walking Dead – morto, mas segue aí, atrapalhando.
+        <br>
+        <br>
+        Não é a panaceia para todos os problemas, mas um passo importante. Migrantes geram riqueza para seus novos países, mas a narrativa é de que são custosos para o poder público. Prova de que uma mentira contada mil vezes vira verdade.
+        <br>
+        <br>
+        <small> Disponível em: <a  style="color:#fff" target="_blank" rel="noopener norrefer" href="https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa"> https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa/ </a></small>
         `
     ),
 ]
