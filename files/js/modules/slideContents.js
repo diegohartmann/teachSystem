@@ -103,9 +103,15 @@ export const slideContents=[
     slide(
         'Exemplo',
         `
-        “Tá com dó do refugiado? Leva pra casa!”
-        Leonardo Sakamoto 
-        8/9/2015
+        <style>
+            .tocenter{ display:inline-block; margin:0 auto; text-align:center; width:100%;}
+        </style>
+
+        <span class="tocenter">“Tá com dó do refugiado? Leva pra casa!”</span>
+        <br>
+        <span class="tocenter">Leonardo Sakamoto</span> 
+        <br>
+        <span class="tocenter">8/9/2015</span>
         <br>
         <br>
         “Tá com dó? Leva para casa!’’ é uma daquelas frases icônicas, através das quais consegue-se avaliar se o interlocutor merece respeito ou um abraço forte e solidário.
@@ -115,7 +121,7 @@ export const slideContents=[
         normalmente diante do clamor para políticas voltadas àquela gente pobre, parda, perdida ou violada que habita as frestas das grandes cidades.
         <br>
         <br>
-        (...)
+        <span class="tocenter">(...)</span>
         <br>
         <br>
         Tanto na Europa quanto por aqui, ações individuais ajudam a mitigar o impacto inicial dos refugiados, garantindo apoio a quem perdeu tudo.
@@ -138,7 +144,7 @@ export const slideContents=[
         Não é a panaceia para todos os problemas, mas um passo importante. Migrantes geram riqueza para seus novos países, mas a narrativa é de que são custosos para o poder público. Prova de que uma mentira contada mil vezes vira verdade.
         <br>
         <br>
-        <small> Disponível em: <a  style="color:#fff" target="_blank" rel="noopener norrefer" href="https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa"> https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa/ </a></small>
+        <small> Disponível em: <a  style="color: #fff; display: inline-block; max-width: 100%; word-break: break-word;" target="_blank" rel="noopener norrefer" href="https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa"> https://blogdosakamoto.blogosfera.uol.com.br/2015/09/08/ta-com-do-do-refugiado-leva-pra-casa/ </a></small>
         `
     ),
 ]
