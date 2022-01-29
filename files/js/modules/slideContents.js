@@ -5,12 +5,12 @@ class slideContent{
     }
 }
 
-function create(_title,_content){
+function slide(_title,_content){
     return new slideContent(_title, _content);
 }
 
-const slideContents=[
-    create(
+export const slideContents=[
+    slide(
         'Artigo de Opinião',
         `
         O artigo de opinião é um texto que defende um ponto de vista por meio de argumentos. Por isso, é um gênero argumentativo. Nele, deve ser utilizada linguagem conforme a norma-padrão.
@@ -33,7 +33,7 @@ const slideContents=[
         É seguindo essa ideia, com alguns poréns, que você construirá seu artigo de opinião, não esquecendo três pontos importantes na sua escrita: o <b>planejamento e projeto</b>; o <b>rascunho</b>; e a <b>revisão</b> do seu texto.
         `
     ),
-    create(
+    slide(
         'Introdução',
         `
         •   Neste primeiro parágrafo, você deve apresentar o tema (assunto) e se posicionar sobre. Qual seu ponto de vista a respeito do tema?
@@ -48,7 +48,7 @@ const slideContents=[
             Não esqueça de escrever seu parágrafo com uma média de 3 a 5 linhas e contendo dois ou mais pontos finais (nunca um, apenas).
         `
     ),
-    create(
+    slide(
         'Desenvolvimento',
         `
         •	Neste(s) parágrafo(s) você apresentará os argumentos que comprovarão seu ponto de vista apresentado na tese que inseriu no parágrafo de introdução.
@@ -84,7 +84,7 @@ const slideContents=[
         o	Semelhança: da mesma forma, igualmente, assim também...
         `
 ),
-    create(
+    slide(
         'Conclusão',
         `
         •	Neste parágrafo você apresentará uma síntese do desenvolvimento do texto e, em seguida, retomará a tese, agora comprovada pelos argumentos.
@@ -101,5 +101,3 @@ const slideContents=[
         `
     ),
 ]
-
-export default slideContents;

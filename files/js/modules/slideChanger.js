@@ -1,0 +1,18 @@
+export let currentSlideIndex = 0;
+export function changeCurrentActiveSlide(_i, _slideArray, _bulletsArray){
+    currentSlideIndex = _i;
+    //circle index
+    if(currentSlideIndex<0){
+        currentSlideIndex= _bulletsArray.length - 1;
+    }else if (currentSlideIndex > _bulletsArray.length - 1){
+        currentSlideIndex = 0;
+    }
+    changeCurrentActive(_bulletsArray, currentSlideIndex);
+    changeCurrentActive(_slideArray, currentSlideIndex);
+}
+function changeCurrentActive(_array, _index){
+    _array.forEach(_item=>{
+        _item.classList.remove('active');
+     }) 
+    _array[_index].classList.add('active');
+}
