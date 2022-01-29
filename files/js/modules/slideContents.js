@@ -83,7 +83,7 @@ export const slideContents=[
         <br>
         o	Semelhança: da mesma forma, igualmente, assim também...
         `
-),
+    ),
     slide(
         'Conclusão',
         `
@@ -98,6 +98,12 @@ export const slideContents=[
         o	Diante disso;<br>
         o	Em síntese;<br>
         o	Portanto...
+        `
+    ),
+    slide(
+        'Exemplo',
+        `
+        
         `
     ),
 ]

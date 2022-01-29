@@ -132,6 +132,10 @@ const L = {
     onPageHide:function(_callback){window.addEventListener('pagehide',_callback)},
     onPageShow:function(_callback){window.addEventListener('pageshow',_callback)},
     clog:function(_message){console.log(_message)},
+    copy:function(_string){navigator.clipboard.writeText(_string)},
+    saveItem:function(_name,_value){localStorage.setItem(_name, _value);},
+    getItem:function(_name){return localStorage.getItem(_name);},
+    removeItem:function(_name){localStorage.removeItem(_name);},
     //#endregion BETTER-WORKFLOW
     
 }
